@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Ubuntu&display=swap');
+
+
+@media only screen and (min-width: 300px) and (max-width: 680px) {
+    .container {
+        margin: 40px 15px;
+        position: unset;
+    }
+    .container h1 {
+        font-size: 30px;
+        text-align: center;
+        width: unset;
+    }
+    .box input {
+        margin: 10px auto;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: url(bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    /*border: 12px solid white;*/
+    color: orange;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+}
+
+.container h1 {
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 22 px;
+    padding: 16px 0px;
+    display: inline-block;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 2px solid rgb(240, 141, 240);
+    margin: 22px 0px;
+}
+
+.box i {
+    width: 25px;
+    /*float: left; */
+    text-align: center;
+}
+
+.box input {
+    width: 72%;
+    border: none;
+    outline: none;
+    color: aqua;
+    padding: 5px 10px;
+    font-size: 22px;
+    background: none;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    /*width: 25%;*/
+    padding: 10px 21px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border-color: 2px solid purple;
+    background: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.btn:hover {
+    color: purple;
+    background: white;
+}
